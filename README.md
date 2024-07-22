@@ -213,7 +213,9 @@ It also retrieves the stackLength for how many commands the CLI stores when disp
 
 ```
 ### 3.8 VaultyAuthenticator
-The system using an RSA based authentication system. This functionality has been showcased using the user "ayush", the idea revolves around the system storing public keys for each user and while logging in the user provides a
+The system using an RSA=signature based authentication system. This functionality has been showcased using the user "ayush", the idea revolves around the system storing public keys for each user and while logging in the user provides his username and a token. The token is the username text signed by the private(private.pem) key of the user. The system uses the public key (public.pem) of the specified user to verify the same.
+![image](https://github.com/user-attachments/assets/592c928a-3ae6-446a-9a98-35ac0cb9b552)
+(picture source: Wikipedia)
 
 ### 3.9 VaultyLogger
 The vaulty logger module is responsible for two main actions:
