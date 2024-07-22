@@ -6,8 +6,7 @@ VaultyStorage is a CLI based tool that provides an easy way for users to securel
 For more details or suggestions email me at: ayush.devmail@gmail.com
 
 ## Startup Information
-This repository can be cloned directly or downloaded from here. To start the client, simply run "app.py". To beginning interacting with the console you must begin with logging in. There is one user by default to showcase how this works, the user's public key and private key files have also been provided in the repository using which the token.txt was signed. You can create and sign your own tokens using the rsa module:
-
+This repository can be cloned directly or downloaded from here. To start the client, simply run "app.py". To beginning interacting with the console you must begin with logging in. There is one user by default to showcase how this works, the user's public key and private key files have also been provided in the repository using which the token.txt was signed. You can create and sign your own tokens using the rsa module: 
 
 ```
 import rsa
@@ -26,6 +25,14 @@ def sign_message(message, private_key):
 
 message = "ayush"
 ```
+
+To log in: <b> login ayush token.txt</b>
+![image](https://github.com/user-attachments/assets/dc0ad204-1d6d-4705-80a8-b02a0f614448)
+
+If you try to use a command without logging in you would get the following error:
+![image](https://github.com/user-attachments/assets/a1a72c39-1317-43c3-8598-93991ed44c04)
+
+
 ## Commands and Usage
 
 
