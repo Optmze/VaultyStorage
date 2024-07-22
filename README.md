@@ -178,10 +178,10 @@ vaults.json <br>
 The verison manager handles the versioning and snapshot management of the vaults. The storage directory where the
 vaults and their corresponding objects that are stored is a git directory where two operations can be performed:
 
-| No. | Property | Description |
+| No. | Command | Description |
 | --- | -------- | ----------- |
-|3.5.1| snapshot | To open an encrypted vault, the vaultID is retrieved using the VaultMapper and key and iv information is retrieved from the shelved Vault Object, a reverse of the pattern in VaultConstructor is followed|
-|3.5.2| revert | To delete the vault, the vaultID is retrieved using the VaultMapper, using which the physical instance and corresponding Vault object is deleted! |
+|3.5.1| snapshot | Takes a snapshot of your current directory|
+|3.5.2| revert | Reverts to the directory structure by the given snapshot using the provided commit hash|
 
 ### 3.6 PermissionHandler
 The PermissionHandler Manages the permissions and access rights associated with the vaults. In the permissions.json file you
@@ -213,8 +213,8 @@ It also retrieves the stackLength for how many commands the CLI stores when disp
 
 ```
 ### 3.8 VaultyAuthenticator
-The system using an RSA=signature based authentication system. This functionality has been showcased using the user "ayush", the idea revolves around the system storing public keys for each user and while logging in the user provides his username and a token. The token is the username text signed by the private(private.pem) key of the user. The system uses the public key (public.pem) of the specified user to verify the same.
-![image](https://github.com/user-attachments/assets/592c928a-3ae6-446a-9a98-35ac0cb9b552)
+The system using an RSA=signature based authentication system. This functionality has been showcased using the user "ayush", the idea revolves around the system storing public keys for each user and while logging in the user provides his username and a token. The token is the username text signed by the private(private.pem) key of the user. The system uses the public key (public.pem) of the specified user to verify the same.<br>
+![image](https://github.com/user-attachments/assets/592c928a-3ae6-446a-9a98-35ac0cb9b552)<br>
 (picture source: Wikipedia)
 
 ### 3.9 VaultyLogger
