@@ -51,6 +51,8 @@ For the examples we will be using the a folder called "staged" which consists of
 ![image](https://github.com/user-attachments/assets/7f257551-51ce-4ac6-a89e-668cd124e784) <br>
 ![image](https://github.com/user-attachments/assets/5fc0bcbe-8666-402e-ac0c-ea6b9756c4c8)
 
+**NOTE:** Whenever trying to create,delete or open a vault, make sure in permissions.json the user you logged in with has the permission for that vault and the command.
+
 ### Creating a vault
 To create a vault we use: ``` create_vault staged Vault1 this is my first vault ``` <br>
 ![image](https://github.com/user-attachments/assets/d75e0bf8-9ca5-406c-971f-3173313999b3)
