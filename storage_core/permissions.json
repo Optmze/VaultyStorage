@@ -1,0 +1,6 @@
+{
+    "ayush":{
+        "vaults": ["Vault1","Vault2"],
+        "commands": ["getlog","show_vaults","open_vault","create_vault","delete_vault","history","revert","snapshot","show_snapshots"]
+    }
+}

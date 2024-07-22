@@ -1,0 +1,6 @@
+{
+  "logFile":"vlog.txt",
+  "vaultsFile": "storage/vaults.json",
+  "permissionsFile": "storage_core/permissions.json",
+  "stackLength": 5
+}
