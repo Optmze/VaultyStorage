@@ -6,7 +6,17 @@ VaultyStorage is a CLI based tool that provides an easy way for users to securel
 For more details or suggestions email me at: ayush.devmail@gmail.com
 
 ## Startup Information
-This repository can be cloned directly or downloaded from here. To start the client, simply run "app.py". To beginning interacting with the console you must begin with logging in. There is one user by default to showcase how this works, the user's public key and private key files have also been provided in the repository using which the token.txt was signed. You can create and sign your own tokens using the rsa module: 
+This repository can be cloned directly or downloaded from here. You must initialize a git repository in the **storage** folder. Then to start the client, simply run "app.py". The steps in your terminal should look something like this:
+```
+PS C:\Users\ayush\Desktop\vaulty\VaultyStorage-main> cd storage
+PS C:\Users\ayush\Desktop\vaulty\VaultyStorage-main\storage> git init
+Initialized empty Git repository in C:/Users/ayush/Desktop/vaulty/VaultyStorage-main/storage/.git/
+PS C:\Users\ayush\Desktop\vaulty\VaultyStorage-main\storage> cd ..
+PS C:\Users\ayush\Desktop\vaulty\VaultyStorage-main> python app.py
+```
+
+
+To beginning interacting with the console you must begin with logging in. There is one user by default to showcase how this works, the user's public key and private key files have also been provided in the repository using which the token.txt was signed. You can create and sign your own tokens using the rsa module: 
 
 ```
 import rsa
