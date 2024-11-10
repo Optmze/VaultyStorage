@@ -5,6 +5,13 @@
 VaultyStorage is a CLI based tool that provides an easy way for users to securely store and manage access to their files.
 For more details or suggestions email me at: ayush.devmail@gmail.com (Optmze)
 
+<b>Submission of DA3 Cyber Security<b> <br>
+<b>Name:</b> Ayush <br>
+<b>Registration Number:</b> 21BCE5335 <br>
+
+GITHUB LINK: https://github.com/Optmze/VaultyStorage
+
+Note: This manual has been also uploaded as a README file in GIT Repository
 ## Startup Information
 This repository can be cloned directly or downloaded from here. You must initialize a git repository in the **storage** folder. Then to start the client, simply run "app.py". The steps in your terminal should look something like this:
 ```
