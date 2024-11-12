@@ -1,7 +1,7 @@
 ![image](https://github.com/user-attachments/assets/3b21bf52-5415-429e-89be-524e42e1a286)
 
 
-# VaultyStorage
+# VaultyStorage MANUAL
 VaultyStorage is a CLI based tool that provides an easy way for users to securely store and manage access to their files.
 For more details or suggestions email me at: ayush.devmail@gmail.com (Optmze)
 
