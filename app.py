@@ -1,4 +1,5 @@
 import cmd,shelve,json
+import time
 from colorama import Fore,Style,init
 from collections import deque
 from storage_core import VaultyLogger as logger
@@ -105,6 +106,7 @@ For more help and queries you can contact me at: ayush.devmail@gmail.com (Optmze
 
     def do_create_vault(self,arg):
         'Creates the vault from the given folder location: create_vault {folder} {vault name} {description}'
+        start = time.time()
         if not self.LOGGED_IN:
             print("You need to log in first!")
             return 
@@ -121,6 +123,8 @@ For more help and queries you can contact me at: ayush.devmail@gmail.com (Optmze
             print(Fore.RED + "VaultyError: Failed to create vault" + Style.DIM)
         
         self.logCommand("create_vault "+arg)
+        end = time.time()
+        print("TIME TAKEN:",end - start)
        
     
     def do_open_vault(self,arg):
