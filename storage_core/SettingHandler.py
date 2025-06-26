@@ -1,6 +1,6 @@
 import json
 import os
-
+# setting handler
 class SettingHandler:
      def __init__(self,filename):
           self.filename = filename

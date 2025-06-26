@@ -1,4 +1,3 @@
-# vault objects stored as shelves
 import os
 import sys
 #storage_core_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'storage_core')
